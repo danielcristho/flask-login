@@ -1,5 +1,3 @@
-from crypt import methods
-import email
 from flask import Blueprint, redirect, render_template, flash, request, url_for
 from flask_login import login_required, logout_user, current_user, login, login_fresh
 
